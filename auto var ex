@@ -1,0 +1,15 @@
+auto var ex
+
+int main()
+{
+    auto int a=3;
+    {
+        auto int a=2;
+        {
+            auto int a=1;
+            printf("%d ",a);
+        }
+        printf("%d ",a);
+    }
+    printf("%d",a);
+}
