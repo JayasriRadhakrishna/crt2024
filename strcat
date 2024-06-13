@@ -1,0 +1,15 @@
+strcat
+
+#include <stdio.h>
+#include<string.h>
+// read string print with strcat space
+int main()
+{
+   char str1[50],str2[50];
+   scanf("%s",str1);
+   scanf("%s",str2);
+   strcat(str1,str2);
+   
+   printf("%s\n",str1);
+   
+}
