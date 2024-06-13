@@ -1,0 +1,14 @@
+string.h  strlen
+
+#include <stdio.h>
+#include<string.h>
+// read string print withfgets space
+int main()
+{
+   char str[50];
+   scanf("%[^\n]s",str);
+  int n=strlen(str);
+    
+    printf("%d",n);
+   
+}
