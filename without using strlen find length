@@ -1,0 +1,19 @@
+without using strlen find length
+
+#include <stdio.h>
+#include<string.h>
+// read string print withfgets space
+int main()
+{
+   char str[50];
+   int i,c=0;
+   scanf("%[^\n]s",str);
+   for(i=0;str[i]!='\0';i++)
+   {
+       c++;
+   }
+  
+    
+    printf("%d",c);
+   
+}
