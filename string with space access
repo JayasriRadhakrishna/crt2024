@@ -1,0 +1,11 @@
+string with space access
+
+#include <stdio.h>
+// read string print with space
+int main()
+{
+   char str[50];
+    scanf("%[^\n]s",str);
+    printf("%s",str);
+   
+}
