@@ -1,0 +1,27 @@
+without strcat
+
+#include <stdio.h>
+#include<string.h>
+// read string print with strcat space
+int main()
+{
+   char str1[50],str2[50],str[50];
+   scanf("%s",str1);
+   scanf("%s",str2);
+   int i,j;
+   for( i=0;str1[i]!='\0';i++) 
+   {
+       str[i]=str1[i];
+   }
+       for(j=0;str2[j]!='\0';j++)
+       {
+       str[i+j]=str2[j];
+       }
+       
+   str[i+j]='\0';
+   
+   
+   
+   printf("%s",str);
+   
+}
