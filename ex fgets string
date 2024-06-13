@@ -1,0 +1,12 @@
+ex fgets string
+
+#include <stdio.h>
+// read string print withfgets space
+int main()
+{
+   char str[50];
+  fgets(str,50,stdin);
+    
+    printf("%s",str);
+   
+}
