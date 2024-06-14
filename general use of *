@@ -1,0 +1,15 @@
+general use of *
+
+int main()
+{
+    int a=56;
+    printf("value of a=%d\n",a);
+    printf("addres of a=%u\n",&a);
+    printf("value of a=%d\n",*(&a));
+    
+    
+   
+    
+    
+}
+        
